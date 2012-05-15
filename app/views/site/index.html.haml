@@ -1,0 +1,19 @@
+= link_to 'get tweets', tweets_path, :remote => true, :id => "get_tweets"
+#tweets
+#loading{:style => 'display: none;'}
+  loading
+#video{:style =>"width: 800px; height: 600px;"}
+#footnotediv
+
+- if !@tweets.nil?
+  :javascript
+    document.addEventListener("DOMContentLoaded", function () {
+    var example = Popcorn.youtube(
+    '#video',
+    'http://www.youtube.com/watch?v=eHvbbJ0Sspc' );
+    #{tweets}
+  // play the video right away
+    example.play();
+    }, false);
+
+

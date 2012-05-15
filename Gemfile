@@ -1,9 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.1'
+gem 'rails', '3.2.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+gem 'haml'
+gem 'haml-rails', :group => :development
+gem 'pg'
 
 gem 'sqlite3'
 
@@ -21,6 +25,31 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'twitter'
+gem 'oj'
+gem 'httparty'
+
+group :production do
+  gem 'execjs'
+  gem 'therubyracer'
+end
+
+group :development do
+  gem 'ruby-debug19', :require => 'ruby-debug'
+  gem 'heroku'
+end
+
+group :test do
+  gem 'rails3-generators'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'steak'
+  gem 'turn', '0.8.2', :require => false
+end
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

@@ -5,7 +5,6 @@ class SiteController < ApplicationController
 
   def js_content_type
     response.headers['Content-type'] = 'text/javascript; charset=utf-8'
-
   end
 
   def index

@@ -1,3 +1,19 @@
 //$('#tweets').html("<%#= escape_javascript(render :partial => 'tweets') %>");
 
+    document.addEventListener("DOMContentLoaded", function () {
+    var example = Popcorn.youtube(
+    '#video',
+    'http://www.youtube.com/watch?v=eHvbbJ0Sspc' );
+    <% @tweets.each do |key, tweet|
+          example.footnote({
+            start: "#{start}",
+            end: "#{start + 5}",
+            text: highlight(tweet[0]['text'].to_s, key.to_s.humanize.downcase),
+            target: "footnotediv"
+          });
+    end %>
+  // play the video right away
+    example.play();
+    }, false);
+
 

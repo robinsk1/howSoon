@@ -1,19 +1,19 @@
+-#%iframe{:class=>"youtube-player", :type=>"text/html", :width=>"640", :height=>"385", :src=>"http://www.youtube.com/embed/eHvbbJ0Sspc", :frameborder=>"0"}
+#video
+%br
 = link_to 'get tweets', tweets_path, :remote => true, :id => "get_tweets"
-#tweets
+#tweets_container
 #loading{:style => 'display: none;'}
   loading
-#video{:style =>"width: 800px; height: 600px;"}
-#footnotediv
+#footnote
 
-- if !@tweets.nil?
-  :javascript
-    document.addEventListener("DOMContentLoaded", function () {
-    var example = Popcorn.youtube(
-    '#video',
-    'http://www.youtube.com/watch?v=eHvbbJ0Sspc' );
-    #{tweets}
-  // play the video right away
-    example.play();
-    }, false);
+:javascript
+  function MyBlah(blah) {
+       alert(blah);
+   }
+
+
+
+
 
 

@@ -1,6 +1,16 @@
--@tweets.each do |key, tweet|
-  = highlight(tweet[0]['text'].to_s, key.to_s.humanize.downcase)
-  #br
+-#-@tweets.each do |key, tweet|
+-#  %div{:class => "footnote"}
+-#    =highlight(tweet[0]['text'].to_s, key.to_s.humanize.downcase)
 
-
-
+:javascript
+  function DoTweets() {
+   //alert("tweets loaded!");
+     $('#loading').hide("slow");
+   //document.addEventListener("load", function () {
+     var example = Popcorn.youtube(
+     '#video',
+     'http://www.youtube.com/watch?v=eHvbbJ0Sspc' );
+     #{tweets_help}
+     example.play();
+     //}, false);
+    };

@@ -42,6 +42,9 @@ GEM
       xpath (~> 0.1.4)
     childprocess (0.3.2)
       ffi (~> 1.0.6)
+    chronic (0.6.7)
+    chronic_duration (0.9.6)
+      numerizer (~> 0.1.1)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -101,6 +104,7 @@ GEM
     multipart-post (1.1.5)
     netrc (0.7.1)
     nokogiri (1.5.2)
+    numerizer (0.1.1)
     oj (1.2.8)
     pg (0.13.2)
     polyglot (0.3.3)
@@ -203,6 +207,8 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  chronic
+  chronic_duration
   coffee-rails (~> 3.2.1)
   database_cleaner
   execjs

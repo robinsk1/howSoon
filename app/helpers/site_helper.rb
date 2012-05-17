@@ -14,16 +14,14 @@ module SiteHelper
 
   def tweets_help
    content = ''
-   start = 1
    @tweets.each do |key, tweet|
-     highlight =  highlight(tweet[0]['text'].to_s, key.to_s.humanize.downcase)
+     highlight =  highlight(tweet[:tweet][0]['text'].to_s, key.to_s.humanize.downcase)
      content << "example.footnote({
-        start: #{start},
-        end: #{start + 5},
+        start: #{tweet[:start]},
+        end: #{tweet[:stop]},
         text: '#{escape_javascript(highlight)}',
         target: 'footnote'
       }); "
-    start += 5
     end
     return content
   end

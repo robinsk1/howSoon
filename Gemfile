@@ -28,6 +28,9 @@ gem 'jquery-rails'
 gem 'twitter'
 gem 'oj'
 gem 'httparty'
+gem 'chronic'
+gem 'chronic_duration'
+
 
 group :production do
   gem 'execjs'

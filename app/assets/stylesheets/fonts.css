@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('fonts/Chunkfive-webfont.eot');
+    src: url('fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Chunkfive-webfont.woff') format('woff'),
+         url('fonts/Chunkfive-webfont.ttf') format('truetype'),
+         url('fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SearsTowerRegular';
+    src: url('fonts/Sears_Tower-webfont.eot');
+    src: url('fonts/Sears_Tower-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Sears_Tower-webfont.woff') format('woff'),
+         url('fonts/Sears_Tower-webfont.ttf') format('truetype'),
+         url('fonts/Sears_Tower-webfont.svg#SearsTowerRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CarbonTypeRegular';
+    src: url('fonts/carbontype-webfont.eot');
+    src: url('fonts/carbontype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/carbontype-webfont.woff') format('woff'),
+         url('fonts/carbontype-webfont.ttf') format('truetype'),
+         url('fonts/carbontype-webfont.svg#CarbonTypeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ImpactLabelRegular';
+    src: url('fonts/Impact_Label-webfont.eot');
+    src: url('fonts/Impact_Label-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Impact_Label-webfont.woff') format('woff'),
+         url('fonts/Impact_Label-webfont.ttf') format('truetype'),
+         url('fonts/Impact_Label-webfont.svg#ImpactLabelRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ImpactLabelReversedRegular';
+    src: url('fonts/Impact_Label_Reversed-webfont.eot');
+    src: url('fonts/Impact_Label_Reversed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Impact_Label_Reversed-webfont.woff') format('woff'),
+         url('fonts/Impact_Label_Reversed-webfont.ttf') format('truetype'),
+         url('fonts/Impact_Label_Reversed-webfont.svg#ImpactLabelReversedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1.fontface {font: 53px/42px 'ChunkFiveRegular', Arial, sans-serif; letter-spacing: 0;}
+h1.fontface-white {font: 53px/42px 'ChunkFiveRegular', Arial, sans-serif; letter-spacing: 0; color:#fff;}
+h1 {font: 32px/40px 'ChunkFiveRegular', Arial, sans-serif; margin-bottom: 5px; letter-spacing: 0;}
+p.style1 {font: 14px/18px 'ChunkFiveRegular', Arial, sans-serif;letter-spacing: 0;margin:5px;}
+p.style2 {font: 18px/18px 'ChunkFiveRegular', Arial, sans-serif;letter-spacing: 0;margin:5px;color:black;}
+p.style3 {font: 25px/22px 'ChunkFiveRegular', Arial, sans-serif;letter-spacing: 0;margin:5px;color:white;}
+p.blog-header {font: 34px/34px 'ChunkFiveRegular', Arial, sans-serif;letter-spacing: 0;margin:5px;color:#333333;}
+p.blog-byline {font: 12px/12px 'ChunkFiveRegular', Arial, sans-serif;letter-spacing: 0;margin:5px;color:#333333;}
+/*.numbers { font: 40px/40px 'ChunkFiveRegular', Arial, sans-serif; letter-spacing: 0; color: #4c4c4c; }*/
+.projnav-links { font: 18px/18px 'ChunkFiveRegular', Arial, sans-serif; letter-spacing: 0; color:#4c4c4c; }
+.menunav-links { letter-spacing: 1px; color: #F0F5FF;}
+
+
+
+#total{font: 65px/40px 'SearsTowerRegular', Arial, sans-serif;letter-spacing: 0;margin:15px;color: #1ca817;}
+
+#required{font: 65px/40px 'SearsTowerRegular', Arial, sans-serif;letter-spacing: 0;margin:15px;color: #f27e19; }
+
+#days-left{font: 65px/40px 'ImpactLabelRegular', Arial, sans-serif;letter-spacing: 5px; margin-top:15px; padding-top:30px; padding-left: 30px; color: rgba(222, 33, 24, 0.78); }
+
+h1 {font-family: BebasRegular; font-size: 5em; color: black; bottom: 0px;}
+h2 {font-family: BebasRegular; font-size: 2em; color: #333333; text-align: center; bottom: 0px;}
+h3 {font-family: BebasRegular; font-size: 1em; color: #333333; line-height: 50px; float: right;}

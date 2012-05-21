@@ -1,16 +1,27 @@
--#%iframe{:class=>"youtube-player", :type=>"text/html", :width=>"640", :height=>"385", :src=>"http://www.youtube.com/embed/eHvbbJ0Sspc", :frameborder=>"0"}
-#video
-%br
-= link_to 'get tweets', tweets_path, :remote => true, :id => "get_tweets"
+-#.grid_12
+-#  %h1
+-#    %p HOW SOON IS NOW
+-#.clear
+
 #tweets_container
+
+.grid_12
+  #footnote
+
+.grid_12
+  #video{:style => 'width:960px; height:600px;'}
+.clear
+
+#link
+  =link_to 'get tweets', tweets_path, :remote => true, :id => "get_tweets"
 #loading{:style => 'display: none;'}
   loading
-#footnote
 
-:javascript
-  function MyBlah(blah) {
-       alert(blah);
-   }
+
+
+
+
+
 
 
 

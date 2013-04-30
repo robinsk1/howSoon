@@ -1,1 +1,1 @@
-A little experiment with popcorn.js that fetches uses tweets to subtitle the lyrics to How Soon is Now by the smiths.
+Popcorn.js streaming tweets to subtitle the lyrics to How Soon is Now.
